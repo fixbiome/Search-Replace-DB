@@ -59,12 +59,11 @@ class icit_srdb_ui extends icit_srdb {
      * @var string Root path of the CMS
      */
     public $path;
-
     public $name;
     public $user;
     public $pass;
-    public $host;
-    public $port;
+    public $host = "localhost";
+    public $port = 3306;
     public $charset;
     public $collate;
     public $tables;
